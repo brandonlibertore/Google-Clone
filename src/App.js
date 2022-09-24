@@ -5,7 +5,7 @@ import Search from './pages/Search';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           {/* HOME PAGE (GOOGLE HOME PAGE) */}
           <Route path='/' exact element={<Home />}/>
