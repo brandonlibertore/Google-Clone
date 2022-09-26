@@ -56,3 +56,23 @@
 .search__buttons--hidden{
     display: none !important;
 }
+
+@media (max-width: 468px){
+    .search__input{
+        width: 85vw;
+    }
+
+    .mic__icon{
+        transform: translateX(-2px);
+    }
+}
+
+@media (max-width: 375px){
+    .search__input{
+        width: 90vw;
+    }
+
+    .mic__icon{
+        transform: translateX(-15px);
+    }
+}

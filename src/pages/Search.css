@@ -92,3 +92,26 @@
     width: 20px;
     margin-right: 10px;
 }
+
+@media (max-width: 468px){
+    .search__page--header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search__page--header-body{
+        max-width: 90vw;
+        padding-top: 10px;
+    }
+
+    .search__page--results{
+        max-width: 100%;
+        margin-left: 15px;
+    }
+
+    .search__page--options{
+        display: none;
+    }
+}
